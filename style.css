@@ -1,0 +1,47 @@
+header {
+    background-image: url(images/bg1.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+header> div {
+    height: 100vh;
+    background-color: rgba(130, 131, 126, 0.445);
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 0%;
+    font-size: 60px;
+    width: 50%;
+}
+ .BTN {
+background-color:burlywood;
+border-radius: 50px;
+padding:10px 50px;
+color:white;
+width: 336px;
+font-size:20px;
+text-align:center;
+margin:auto;
+margin-bottom:20px;
+ }
+
+ .BTN2 {
+    border: 3px solid white;
+        border-radius: 50px;
+        padding: 10px 50px;
+        color: white;
+        width: 333px;
+        font-size: 20px;
+        text-align: center;
+        margin:auto;
+ }
+ .BTMs{
+    width:50%
+ }
