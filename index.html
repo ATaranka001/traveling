@@ -4,10 +4,20 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Это описание страницы -->
         <title>Travel</title>
+        <!-- Ссылка на стиль страницы -->
         <link rel="stylesheet" href="style.css">
+        <script>
+            function startanimation( ) 
+            { 
+                 if (document.querySelector("#blok2").getBoundingClientRect().top<500) {
+                    document.querySelectorAll("figure").forEach(fig=>fig.classList.add("figureanim"))       
+                 }
+            }
+        </script>
     </head>
-    <body>
+    <body onscroll="startanimation ()">
         <!-- https://nicepage.com/ru/website-templates/preview/zabroniruyte-svoe-priklyuchenie-na-svezhem-vozdukhe-4544705?device=desktop  -->
         <header>
             <div>
@@ -24,6 +34,7 @@
                 </section>
             </div>
         </header>
+        <!-- Это секция блока №1 -->
         <section id="blok1">
             <img
                 src="images/beautiful-tropical-empty-beach-sea-ocean-with-white-cloud-on-blue-sky-background.jpg"
@@ -68,9 +79,21 @@
                 </figure>
             </div>
             <div>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
+                <figure>
+                    <img
+                        src="images/Канада.jpg">
+                    <figcaption>невероятно красивое место</figcaption>
+                </figure>
+                <figure>
+                    <img
+                        src="images/пирс.jpg">
+                    <figcaption>Прогулка по пирсу</figcaption>
+                </figure>
+                <figure>
+                    <img
+                        src="images/Куба.jpg">
+                    <figcaption> <span> Солнечная Куба</span> </figcaption>
+                </figure>
             </div>
         </section>
     </body>
