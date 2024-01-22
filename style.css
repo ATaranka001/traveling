@@ -38,10 +38,11 @@ header h1 {
    color: burlywood;
 }
 
-.BTN2:hover{
+.BTN2:hover {
    background-color: bisque;
    color: rgba(0, 0, 0, 0.959);
 }
+
 .BTN2 {
    border: 3px solid white;
    border-radius: 50px;
@@ -53,7 +54,7 @@ header h1 {
    margin: auto;
 }
 
-.BTMs {   
+.BTMs {
    width: 50%
 }
 
@@ -126,24 +127,26 @@ header h1 {
 }
 
 figure {
-position:relative;
+   position: relative;
 }
+
 @keyframes start {
-   from{
-      transform:scale(0)
+   from {
+      transform: scale(0)
    }
-   to{
+
+   to {
       transform: scale(1);
    }
 }
 
-.figureanim{
+.figureanim {
    animation: start 2s;
 }
 
-figcaption{
+figcaption {
    position: absolute;
-   top:70%;
+   top: 70%;
    background-color: rgba(0, 0, 0, 0.473);
    color: white;
    width: 100%;
@@ -152,9 +155,25 @@ figcaption{
    text-transform: uppercase;
    padding-top: 5%;
    box-sizing: border-box;
-}
- 
-figure:first-child figcaption{
-   text-align: center;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
 }
 
+figure:first-child figcaption {
+   text-align: center;
+}
+#block3{
+   background-image: url(images/ogromnaya\ kartinka.jpg);
+   height: 80vh;
+   background-size:100% auto; 
+   background-repeat: no-repeat;
+
+}
+  #block3 h1{
+   margin-top: 0;
+   text-align: center;
+   padding-top: 50px;
+   color: white;
+   font-size: 4em;
+   text-transform: uppercase;
+  }
